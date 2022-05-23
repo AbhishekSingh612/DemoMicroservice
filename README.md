@@ -6,7 +6,7 @@ Repository to practice microservice concepts
 
 ## 1. Steps to add Discovery Server and Client  
 
-a. For Discovery Server Microservice   	
+   a. For Discovery Server Microservice   	
 	1. add `@EnableEurekaServer` to main class   
 	2. Disable server to register as client  
 	
@@ -14,7 +14,8 @@ a. For Discovery Server Microservice
 	eureka.client.fetch-registry=false 
 	eureka.client.register-with-eureka=false  
 	eureka.client.service-url.defaultZone=http://localhost:8001/eureka/   
-b. For Discovery Client Microservice  		
+	
+   b. For Discovery Client Microservice  		
 	1. add `@EnableDiscoveryClient` to main class (Optional) 
 	2. add `spring.application.name` property  
 	3. add `eureka.client.service-url.defaultZone={server-url}` 
