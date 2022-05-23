@@ -6,8 +6,8 @@ Repository to practice microservice concepts
 
 ## 1. Steps to add Discovery Server and Client  
 1. For Discovery Server Microservice   	
-	1. add `@EnableEurekaServer` to main class   
-	2. Disable server to register as client  
+	1. add `@EnableEurekaServer` to main class
+	2. Disable server to register as client
 	
 			server.port=8001  
 			eureka.client.fetch-registry=false 
