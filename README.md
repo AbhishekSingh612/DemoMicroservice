@@ -24,7 +24,7 @@ Repository to practice microservice concepts
 
 ## 2. Steps to add Spring Cloud API Gateway
 
-```
+```Java
 class abc{
 	public static void main(String args[]){
 		System.out.println("Hello World");
